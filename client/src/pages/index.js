@@ -6,6 +6,7 @@ import Tracks from './tracks';
 export default function Pages() {
   return (
     <BrowserRouter>
+
       <Routes>
         <Route element={<Tracks />} path="/" />
       </Routes>
